@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding:0px;
+	margin:0px;
+}
+body {
+	background:url(images/Wood_floor_by_gnrbishop.jpg) repeat;
+	
+}
+div.container {
+	width:auto;
+	margin:0 auto;
+}
+/*--------------------------------------------Start Create Menu-----------------*/ 
+div.menu {
+	width:auto;
+}
+div.menu ul {
+	list-style-type:none;
+	height:100px;
+	width:945px;
+	margin: 0 auto;
+}
+div.menu li {
+	float:left;
+	background:url(images/bg-html.jpg) no-repeat;
+	border:1px solid #FFF;
+	-moz-border-radius-bottomleft:10px;
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-radius:10px;
+	-webkit-border-radius:10px;
+	width:150px;
+	/*background-color:#9C0;*/
+	
+	text-align:center;
+	font-family:Tahoma, Geneva, sans-serif;
+	margin-right:5px;
+	margin-top:-75px;
+}
+div.menu li a {
+	text-decoration:none;
+	display:block;
+	font-size:20px;
+	color:#FFF;
+	padding-top:75px;
+	padding-bottom:10px;
+	text-shadow: rgba(0, 0, 0, 0.5) -1px 0, rgba(0, 0, 0, 0.3) 0 -1px, rgba(255, 255, 255, 0.5) 0 1px, rgba(0, 0, 0, 0.3) -1px -2px;/*color:#542929;*//*text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);*/
+}
+div.menu li.Home {
+}
+div.menu li.Children {
+}
+div.menu li.Terms {
+}
+div.menu li.ContactUs {
+}
+/*-------------------------------------Finish Create Menu-----------------*/
+
+
+div.container >  div.tablo {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:60px;
+	/*background:url(images/bg.jpg)repeat;*/
+	/*background:url(images/bg-html.jpg);*/
+	/*background: rgb(0, 0, 0);*/
+	background:rgba(222,184,135 ,0.1);
+	width:1024px;
+	height:150px;
+	border:solid #FFF 2px;
+	/*border:solid #DBB7AE 2px;*/
+	/*border-radius:9px;*/
+	border-radius:5px 150px;
+	box-shadow:5px 10px 60px #333333;
+}
+div.tablo h1 {
+	padding-left:80px;
+	padding-top:30px;
+	font-family: Rockwell, Georgia, "Times New Roman", Times, serif;
+	font-size:70px;
+	/*text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;
+	color:#542929;*/
+	
+	color:#FFF;
+	text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+}
+/*-------------------------------------About---------------------------------*/
+div.info{
+	width:980px;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	
+	
+	}
+div.info div.introduce{
+	
+	min-height:180px;
+	/*background-color:#FAF8C5;*/
+	background:rgba(222,184,135 ,0.4);
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border:2px solid #FFF;
+	/*margin-bottom:40px;*/
+	border-radius:100px 5px;
+	
+	}
+div.info div.introduce p{
+	font:"Comic Sans MS", cursive;
+	color:#FFF;
+	font-size:20px;
+	text-shadow:1px 1px 4px #8B4513;
+	/*text-shadow:1px 1px 1px #A0522D;*/
+	padding-top:30px;
+	
+	}
+
+div.info div.introduce p span.one{
+	
+	margin-left:50px;
+	
+	}
+div.info div.introduce p span.two{
+	margin-left:25px;
+	}
+div.info div.introduce p span.three{
+	margin-left:25px;
+	}
+div.info div.introduce p span.four{
+	margin-left:25px;
+	}
+div.info div.introduce p span.five{
+	margin-left:25px;
+	}
+div.info div.introduce p span.six{
+	margin-left:25px;
+	}
